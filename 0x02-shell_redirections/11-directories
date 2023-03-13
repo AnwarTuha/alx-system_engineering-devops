@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(find . -type d -mindepth 2 | wc -l)
+echo $(find . -mindepth 2 -type d | wc -l)
